@@ -1,0 +1,12 @@
+Company Name - Offside Games
+Product Name - Color Shop 3D
+
+Version Number - 1.1.1
+Version Code - 5
+
+Package Name - com.offsidegames.colorshop3d
+
+Keystore Password - offsidegames
+
+Alias Name - shop color 3d
+Alias Password - offsidegames
