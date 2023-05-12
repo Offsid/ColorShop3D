@@ -1,0 +1,577 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.offsidegames.colorshop3d"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->/Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="31" />
+10-->/Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml
+11
+12    <supports-screens
+12-->/Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->/Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->/Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->/Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->/Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->/Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:14:9-55
+22        android:required="false" />
+22-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:15:9-33
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:17:5-67
+24-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:17:22-64
+25
+26    <uses-feature
+26-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:19:5-21:36
+27        android:name="android.hardware.touchscreen"
+27-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:20:9-52
+28        android:required="false" />
+28-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:21:9-33
+29    <uses-feature
+29-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:22:5-24:36
+30        android:name="android.hardware.touchscreen.multitouch"
+30-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:23:9-63
+31        android:required="false" />
+31-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:24:9-33
+32    <uses-feature
+32-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:25:5-27:36
+33        android:name="android.hardware.touchscreen.multitouch.distinct"
+33-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:26:9-72
+34        android:required="false" />
+34-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:27:9-33
+35
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+36-->[com.tabtale.tt_plugins.android:TT_Plugins_AppsFlyer:4.2.0.3.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/bff1025d4cf5742ff2ca7657a9d7b8e0/jetified-TT_Plugins_AppsFlyer-4.2.0.3.1/AndroidManifest.xml:13:5-79
+36-->[com.tabtale.tt_plugins.android:TT_Plugins_AppsFlyer:4.2.0.3.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/bff1025d4cf5742ff2ca7657a9d7b8e0/jetified-TT_Plugins_AppsFlyer-4.2.0.3.1/AndroidManifest.xml:13:22-76
+37    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+37-->[com.tabtale.tt_plugins.android:TT_Plugins_AppsFlyer:4.2.0.3.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/bff1025d4cf5742ff2ca7657a9d7b8e0/jetified-TT_Plugins_AppsFlyer-4.2.0.3.1/AndroidManifest.xml:14:5-76
+37-->[com.tabtale.tt_plugins.android:TT_Plugins_AppsFlyer:4.2.0.3.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/bff1025d4cf5742ff2ca7657a9d7b8e0/jetified-TT_Plugins_AppsFlyer-4.2.0.3.1/AndroidManifest.xml:14:22-73
+38    <uses-permission android:name="android.permission.WAKE_LOCK" />
+38-->[com.tabtale.tt_plugins.android:TT_Plugins_FirebaseAgent:4.2.0.1.2] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/6096e2d101784621a4770add94068030/jetified-TT_Plugins_FirebaseAgent-4.2.0.1.2/AndroidManifest.xml:13:5-68
+38-->[com.tabtale.tt_plugins.android:TT_Plugins_FirebaseAgent:4.2.0.1.2] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/6096e2d101784621a4770add94068030/jetified-TT_Plugins_FirebaseAgent-4.2.0.1.2/AndroidManifest.xml:13:22-65
+39    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+39-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a20bbbca0d30361d4d10ef9994692d80/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:26:5-110
+39-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a20bbbca0d30361d4d10ef9994692d80/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:26:22-107
+40    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+40-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e23e94a334da31b4265e429a971fe296/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:25:5-79
+40-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e23e94a334da31b4265e429a971fe296/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:25:22-76
+41    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+41-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+41-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+42    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+42-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+42-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+43
+44    <application
+44-->/Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:3-83
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.6.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/736821b08ce43c689e56359e237cf55e/core-1.6.0/AndroidManifest.xml:24:18-86
+46        android:extractNativeLibs="true"
+46-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:29:18-50
+47        android:fullBackupContent="false"
+47-->[com.tabtale.tt_plugins.android:TT_Plugins_AppsFlyer:4.2.0.3.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/bff1025d4cf5742ff2ca7657a9d7b8e0/jetified-TT_Plugins_AppsFlyer-4.2.0.3.1/AndroidManifest.xml:17:9-42
+48        android:icon="@mipmap/app_icon"
+48-->/Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:49-80
+49        android:label="@string/app_name"
+49-->/Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/src/main/AndroidManifest.xml:4:16-48
+50        android:networkSecurityConfig="@xml/network_security_config" >
+50-->[com.tabtale.tt_plugins.android:TT_Plugins_Core:4.2.0.5.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a8ad5361048b36798ce874ccaf648c84/jetified-TT_Plugins_Core-4.2.0.5.1/AndroidManifest.xml:13:18-78
+51        <activity
+51-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:30:9-51:20
+52            android:name="com.unity3d.player.UnityPlayerActivity"
+52-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:31:13-66
+53            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+53-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:32:13-194
+54            android:exported="true"
+54-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:33:13-36
+55            android:hardwareAccelerated="false"
+55-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:34:13-48
+56            android:launchMode="singleTop"
+56-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-43
+57            android:resizeableActivity="false"
+57-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-47
+58            android:screenOrientation="fullUser"
+58-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-49
+59            android:theme="@style/UnityThemeSelector" >
+59-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-54
+60            <intent-filter>
+60-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-43:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:40:17-69
+61-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:40:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:17-77
+63-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:42:27-74
+64            </intent-filter>
+65
+66            <meta-data
+66-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:45:13-47:40
+67                android:name="unityplayer.UnityActivity"
+67-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:46:17-57
+68                android:value="true" />
+68-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:47:17-37
+69            <meta-data
+69-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:48:13-50:40
+70                android:name="android.notch_support"
+70-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:49:17-53
+71                android:value="true" />
+71-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:50:17-37
+72        </activity>
+73
+74        <meta-data
+74-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:53:9-55:33
+75            android:name="unity.splash-mode"
+75-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:54:13-45
+76            android:value="0" />
+76-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:55:13-30
+77        <meta-data
+77-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:56:9-58:36
+78            android:name="unity.splash-enable"
+78-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:57:13-47
+79            android:value="True" />
+79-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:58:13-33
+80        <meta-data
+80-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:59:9-61:36
+81            android:name="unity.launch-fullscreen"
+81-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:60:13-51
+82            android:value="True" />
+82-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:61:13-33
+83        <meta-data
+83-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:62:9-64:37
+84            android:name="unity.allow-resizable-window"
+84-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:63:13-56
+85            android:value="False" />
+85-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:64:13-34
+86        <meta-data
+86-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:65:9-67:50
+87            android:name="notch.config"
+87-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:66:13-40
+88            android:value="portrait|landscape" />
+88-->[:unityLibrary] /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:67:13-47
+89
+90        <receiver
+90-->[com.tabtale.tt_plugins.android:TT_Plugins_AppsFlyer:4.2.0.3.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/bff1025d4cf5742ff2ca7657a9d7b8e0/jetified-TT_Plugins_AppsFlyer-4.2.0.3.1/AndroidManifest.xml:19:9-25:20
+91            android:name="com.appsflyer.MultipleInstallBroadcastReceiver"
+91-->[com.tabtale.tt_plugins.android:TT_Plugins_AppsFlyer:4.2.0.3.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/bff1025d4cf5742ff2ca7657a9d7b8e0/jetified-TT_Plugins_AppsFlyer-4.2.0.3.1/AndroidManifest.xml:20:13-74
+92            android:exported="true" >
+92-->[com.tabtale.tt_plugins.android:TT_Plugins_AppsFlyer:4.2.0.3.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/bff1025d4cf5742ff2ca7657a9d7b8e0/jetified-TT_Plugins_AppsFlyer-4.2.0.3.1/AndroidManifest.xml:21:13-36
+93            <intent-filter>
+93-->[com.tabtale.tt_plugins.android:TT_Plugins_AppsFlyer:4.2.0.3.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/bff1025d4cf5742ff2ca7657a9d7b8e0/jetified-TT_Plugins_AppsFlyer-4.2.0.3.1/AndroidManifest.xml:22:13-24:29
+94                <action android:name="com.android.vending.INSTALL_REFERRER" />
+94-->[com.tabtale.tt_plugins.android:TT_Plugins_AppsFlyer:4.2.0.3.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/bff1025d4cf5742ff2ca7657a9d7b8e0/jetified-TT_Plugins_AppsFlyer-4.2.0.3.1/AndroidManifest.xml:23:17-79
+94-->[com.tabtale.tt_plugins.android:TT_Plugins_AppsFlyer:4.2.0.3.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/bff1025d4cf5742ff2ca7657a9d7b8e0/jetified-TT_Plugins_AppsFlyer-4.2.0.3.1/AndroidManifest.xml:23:25-76
+95            </intent-filter>
+96        </receiver>
+97
+98        <activity
+98-->[com.tabtale.tt_plugins.android:TT_Plugins_Core:4.2.0.5.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a8ad5361048b36798ce874ccaf648c84/jetified-TT_Plugins_Core-4.2.0.5.1/AndroidManifest.xml:14:9-17:86
+99            android:name="com.tabtale.ttplugins.ttpcore.activities.TTPEmptyActivity"
+99-->[com.tabtale.tt_plugins.android:TT_Plugins_Core:4.2.0.5.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a8ad5361048b36798ce874ccaf648c84/jetified-TT_Plugins_Core-4.2.0.5.1/AndroidManifest.xml:15:13-85
+100            android:exported="false"
+100-->[com.tabtale.tt_plugins.android:TT_Plugins_Core:4.2.0.5.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a8ad5361048b36798ce874ccaf648c84/jetified-TT_Plugins_Core-4.2.0.5.1/AndroidManifest.xml:16:13-37
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+101-->[com.tabtale.tt_plugins.android:TT_Plugins_Core:4.2.0.5.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a8ad5361048b36798ce874ccaf648c84/jetified-TT_Plugins_Core-4.2.0.5.1/AndroidManifest.xml:17:13-83
+102
+103        <meta-data
+103-->[com.tabtale.tt_plugins.android:TT_Plugins_FirebaseAgent:4.2.0.1.2] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/6096e2d101784621a4770add94068030/jetified-TT_Plugins_FirebaseAgent-4.2.0.1.2/AndroidManifest.xml:16:9-18:37
+104            android:name="firebase_analytics_collection_enabled"
+104-->[com.tabtale.tt_plugins.android:TT_Plugins_FirebaseAgent:4.2.0.1.2] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/6096e2d101784621a4770add94068030/jetified-TT_Plugins_FirebaseAgent-4.2.0.1.2/AndroidManifest.xml:17:13-65
+105            android:value="false" />
+105-->[com.tabtale.tt_plugins.android:TT_Plugins_FirebaseAgent:4.2.0.1.2] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/6096e2d101784621a4770add94068030/jetified-TT_Plugins_FirebaseAgent-4.2.0.1.2/AndroidManifest.xml:18:13-34
+106        <meta-data
+106-->[com.tabtale.tt_plugins.android:TT_Plugins_FirebaseAgent:4.2.0.1.2] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/6096e2d101784621a4770add94068030/jetified-TT_Plugins_FirebaseAgent-4.2.0.1.2/AndroidManifest.xml:19:9-21:37
+107            android:name="google_analytics_default_allow_ad_personalization_signals"
+107-->[com.tabtale.tt_plugins.android:TT_Plugins_FirebaseAgent:4.2.0.1.2] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/6096e2d101784621a4770add94068030/jetified-TT_Plugins_FirebaseAgent-4.2.0.1.2/AndroidManifest.xml:20:13-85
+108            android:value="false" />
+108-->[com.tabtale.tt_plugins.android:TT_Plugins_FirebaseAgent:4.2.0.1.2] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/6096e2d101784621a4770add94068030/jetified-TT_Plugins_FirebaseAgent-4.2.0.1.2/AndroidManifest.xml:21:13-34
+109
+110        <activity
+110-->[com.google.android.gms:play-services-auth:18.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/b04f3d1ae40e13c7594d8ed337399605/jetified-play-services-auth-18.1.0/AndroidManifest.xml:23:9-27:75
+111            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+111-->[com.google.android.gms:play-services-auth:18.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/b04f3d1ae40e13c7594d8ed337399605/jetified-play-services-auth-18.1.0/AndroidManifest.xml:24:13-93
+112            android:excludeFromRecents="true"
+112-->[com.google.android.gms:play-services-auth:18.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/b04f3d1ae40e13c7594d8ed337399605/jetified-play-services-auth-18.1.0/AndroidManifest.xml:25:13-46
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-auth:18.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/b04f3d1ae40e13c7594d8ed337399605/jetified-play-services-auth-18.1.0/AndroidManifest.xml:26:13-37
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.android.gms:play-services-auth:18.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/b04f3d1ae40e13c7594d8ed337399605/jetified-play-services-auth-18.1.0/AndroidManifest.xml:27:13-72
+115        <!--
+116            Service handling Google Sign-In user revocation. For apps that do not integrate with
+117            Google Sign-In, this service will never be started.
+118        -->
+119        <service
+119-->[com.google.android.gms:play-services-auth:18.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/b04f3d1ae40e13c7594d8ed337399605/jetified-play-services-auth-18.1.0/AndroidManifest.xml:33:9-37:51
+120            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+120-->[com.google.android.gms:play-services-auth:18.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/b04f3d1ae40e13c7594d8ed337399605/jetified-play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
+121            android:exported="true"
+121-->[com.google.android.gms:play-services-auth:18.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/b04f3d1ae40e13c7594d8ed337399605/jetified-play-services-auth-18.1.0/AndroidManifest.xml:35:13-36
+122            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+122-->[com.google.android.gms:play-services-auth:18.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/b04f3d1ae40e13c7594d8ed337399605/jetified-play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
+123            android:visibleToInstantApps="true" />
+123-->[com.google.android.gms:play-services-auth:18.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/b04f3d1ae40e13c7594d8ed337399605/jetified-play-services-auth-18.1.0/AndroidManifest.xml:37:13-48
+124
+125        <activity
+125-->[com.google.android.gms:play-services-base:17.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/07044138e4e874d0d569dd1deb5492bd/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+126            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+126-->[com.google.android.gms:play-services-base:17.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/07044138e4e874d0d569dd1deb5492bd/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+127            android:exported="false"
+127-->[com.google.android.gms:play-services-base:17.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/07044138e4e874d0d569dd1deb5492bd/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+128-->[com.google.android.gms:play-services-base:17.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/07044138e4e874d0d569dd1deb5492bd/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+129
+130        <receiver
+130-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a20bbbca0d30361d4d10ef9994692d80/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:29:9-33:20
+131            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+131-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a20bbbca0d30361d4d10ef9994692d80/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:30:13-85
+132            android:enabled="true"
+132-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a20bbbca0d30361d4d10ef9994692d80/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:31:13-35
+133            android:exported="false" >
+133-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a20bbbca0d30361d4d10ef9994692d80/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:32:13-37
+134        </receiver>
+135
+136        <service
+136-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a20bbbca0d30361d4d10ef9994692d80/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:35:9-38:40
+137            android:name="com.google.android.gms.measurement.AppMeasurementService"
+137-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a20bbbca0d30361d4d10ef9994692d80/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:36:13-84
+138            android:enabled="true"
+138-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a20bbbca0d30361d4d10ef9994692d80/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:37:13-35
+139            android:exported="false" />
+139-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a20bbbca0d30361d4d10ef9994692d80/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:38:13-37
+140        <service
+140-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a20bbbca0d30361d4d10ef9994692d80/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:39:9-43:72
+141            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+141-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a20bbbca0d30361d4d10ef9994692d80/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:40:13-87
+142            android:enabled="true"
+142-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a20bbbca0d30361d4d10ef9994692d80/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:41:13-35
+143            android:exported="false"
+143-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a20bbbca0d30361d4d10ef9994692d80/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:42:13-37
+144            android:permission="android.permission.BIND_JOB_SERVICE" />
+144-->[com.google.android.gms:play-services-measurement:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/a20bbbca0d30361d4d10ef9994692d80/jetified-play-services-measurement-21.1.0/AndroidManifest.xml:43:13-69
+145        <service
+145-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e23e94a334da31b4265e429a971fe296/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:28:9-34:19
+146            android:name="com.google.firebase.components.ComponentDiscoveryService"
+146-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e23e94a334da31b4265e429a971fe296/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:29:13-84
+147            android:directBootAware="true"
+147-->[com.google.firebase:firebase-common:20.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/149d1aab705d9370b7ca2ca4b8cf64a2/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+148            android:exported="false" >
+148-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e23e94a334da31b4265e429a971fe296/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:30:13-37
+149            <meta-data
+149-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e23e94a334da31b4265e429a971fe296/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:31:13-33:85
+150                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+150-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e23e94a334da31b4265e429a971fe296/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:32:17-139
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.android.gms:play-services-measurement-api:21.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e23e94a334da31b4265e429a971fe296/jetified-play-services-measurement-api-21.1.0/AndroidManifest.xml:33:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-config:21.0.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/9fccbf1227594c9274f5bd54967cd2aa/jetified-firebase-config-21.0.1/AndroidManifest.xml:32:13-34:85
+153                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+153-->[com.google.firebase:firebase-config:21.0.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/9fccbf1227594c9274f5bd54967cd2aa/jetified-firebase-config-21.0.1/AndroidManifest.xml:33:17-117
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-config:21.0.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/9fccbf1227594c9274f5bd54967cd2aa/jetified-firebase-config-21.0.1/AndroidManifest.xml:34:17-82
+155            <meta-data
+155-->[com.google.firebase:firebase-abt:21.0.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/813a0ae25617cb084b58b64dafa69d3e/jetified-firebase-abt-21.0.0/AndroidManifest.xml:13:13-15:85
+156                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+156-->[com.google.firebase:firebase-abt:21.0.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/813a0ae25617cb084b58b64dafa69d3e/jetified-firebase-abt-21.0.0/AndroidManifest.xml:14:17-109
+157                android:value="com.google.firebase.components.ComponentRegistrar" />
+157-->[com.google.firebase:firebase-abt:21.0.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/813a0ae25617cb084b58b64dafa69d3e/jetified-firebase-abt-21.0.0/AndroidManifest.xml:15:17-82
+158            <meta-data
+158-->[com.google.firebase:firebase-installations:17.0.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/d575652e0196f6e060dfc7efd05108d5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+159                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+159-->[com.google.firebase:firebase-installations:17.0.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/d575652e0196f6e060dfc7efd05108d5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+160                android:value="com.google.firebase.components.ComponentRegistrar" />
+160-->[com.google.firebase:firebase-installations:17.0.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/d575652e0196f6e060dfc7efd05108d5/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+161        </service>
+162
+163        <provider
+163-->[com.google.firebase:firebase-common:20.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/149d1aab705d9370b7ca2ca4b8cf64a2/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+164            android:name="com.google.firebase.provider.FirebaseInitProvider"
+164-->[com.google.firebase:firebase-common:20.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/149d1aab705d9370b7ca2ca4b8cf64a2/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+165            android:authorities="com.offsidegames.colorshop3d.firebaseinitprovider"
+165-->[com.google.firebase:firebase-common:20.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/149d1aab705d9370b7ca2ca4b8cf64a2/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+166            android:directBootAware="true"
+166-->[com.google.firebase:firebase-common:20.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/149d1aab705d9370b7ca2ca4b8cf64a2/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+167            android:exported="false"
+167-->[com.google.firebase:firebase-common:20.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/149d1aab705d9370b7ca2ca4b8cf64a2/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+168            android:initOrder="100" />
+168-->[com.google.firebase:firebase-common:20.1.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/149d1aab705d9370b7ca2ca4b8cf64a2/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+169
+170        <meta-data
+170-->[com.google.android.gms:play-services-basement:18.0.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/c158dbe6bad5056979dbf1ee0625408f/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+171            android:name="com.google.android.gms.version"
+171-->[com.google.android.gms:play-services-basement:18.0.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/c158dbe6bad5056979dbf1ee0625408f/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+172            android:value="@integer/google_play_services_version" />
+172-->[com.google.android.gms:play-services-basement:18.0.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/c158dbe6bad5056979dbf1ee0625408f/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+173
+174        <provider
+174-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+175            android:name="androidx.startup.InitializationProvider"
+175-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+176            android:authorities="com.offsidegames.colorshop3d.androidx-startup"
+176-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+177            android:exported="false" >
+177-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+178            <meta-data
+178-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+179                android:name="androidx.work.WorkManagerInitializer"
+179-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+180                android:value="androidx.startup" />
+180-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+181        </provider>
+182
+183        <service
+183-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+184            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+184-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+185            android:directBootAware="false"
+185-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+186            android:enabled="@bool/enable_system_alarm_service_default"
+186-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+187            android:exported="false" />
+187-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+188        <service
+188-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+189            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+189-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+190            android:directBootAware="false"
+190-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+191            android:enabled="@bool/enable_system_job_service_default"
+191-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+192            android:exported="true"
+192-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+193            android:permission="android.permission.BIND_JOB_SERVICE" />
+193-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+194        <service
+194-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+195            android:name="androidx.work.impl.foreground.SystemForegroundService"
+195-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+196            android:directBootAware="false"
+196-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+197            android:enabled="@bool/enable_system_foreground_service_default"
+197-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+198            android:exported="false" />
+198-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+199
+200        <receiver
+200-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+201            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+201-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+202            android:directBootAware="false"
+202-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+203            android:enabled="true"
+203-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+204            android:exported="false" />
+204-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+205        <receiver
+205-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+206            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+206-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+207            android:directBootAware="false"
+207-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+208            android:enabled="false"
+208-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+209            android:exported="false" >
+209-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+210            <intent-filter>
+210-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+211                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+211-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+211-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+212                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+212-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+212-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+213            </intent-filter>
+214        </receiver>
+215        <receiver
+215-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+216            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+216-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+217            android:directBootAware="false"
+217-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+218            android:enabled="false"
+218-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+219            android:exported="false" >
+219-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+220            <intent-filter>
+220-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+221                <action android:name="android.intent.action.BATTERY_OKAY" />
+221-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+221-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+222                <action android:name="android.intent.action.BATTERY_LOW" />
+222-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+222-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+223            </intent-filter>
+224        </receiver>
+225        <receiver
+225-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+226            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+226-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+227            android:directBootAware="false"
+227-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+228            android:enabled="false"
+228-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+229            android:exported="false" >
+229-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+230            <intent-filter>
+230-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+231                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+231-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+231-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+232                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+232-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+232-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+233            </intent-filter>
+234        </receiver>
+235        <receiver
+235-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+236            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+236-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+237            android:directBootAware="false"
+237-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+238            android:enabled="false"
+238-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+239            android:exported="false" >
+239-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+240            <intent-filter>
+240-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+241                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+241-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+241-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+242            </intent-filter>
+243        </receiver>
+244        <receiver
+244-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+245            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+245-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+246            android:directBootAware="false"
+246-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+247            android:enabled="false"
+247-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+248            android:exported="false" >
+248-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+249            <intent-filter>
+249-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+250                <action android:name="android.intent.action.BOOT_COMPLETED" />
+250-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+250-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+251                <action android:name="android.intent.action.TIME_SET" />
+251-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+251-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+252                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+252-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+252-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+253            </intent-filter>
+254        </receiver>
+255        <receiver
+255-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+256            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+256-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+257            android:directBootAware="false"
+257-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+258            android:enabled="@bool/enable_system_alarm_service_default"
+258-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+259            android:exported="false" >
+259-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+260            <intent-filter>
+260-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+261                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+261-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+261-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+262            </intent-filter>
+263        </receiver>
+264        <receiver
+264-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+265            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+265-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+266            android:directBootAware="false"
+266-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+267            android:enabled="true"
+267-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+268            android:exported="true"
+268-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+269            android:permission="android.permission.DUMP" >
+269-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+270            <intent-filter>
+270-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+271                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+271-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+271-->[androidx.work:work-runtime:2.7.1] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/39c47372d5728d9bd74034b6d9477e39/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+272            </intent-filter>
+273        </receiver>
+274
+275        <service
+275-->[androidx.room:room-runtime:2.2.5] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+276            android:name="androidx.room.MultiInstanceInvalidationService"
+276-->[androidx.room:room-runtime:2.2.5] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+277            android:directBootAware="true"
+277-->[androidx.room:room-runtime:2.2.5] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+278            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+278-->[androidx.room:room-runtime:2.2.5] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+279        <activity
+279-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:12:5-271
+280            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+280-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:12:15-102
+281            android:enabled="false"
+281-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:12:103-126
+282            android:exported="false"
+282-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:12:127-151
+283            android:launchMode="singleInstance"
+283-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:12:204-239
+284            android:process=":playcore_missing_splits_activity"
+284-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:12:152-203
+285            android:stateNotNeeded="true" />
+285-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:12:240-269
+286        <activity
+286-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:13:5-226
+287            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+287-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:13:15-95
+288            android:enabled="false"
+288-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:13:96-119
+289            android:exported="false"
+289-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:13:120-144
+290            android:stateNotNeeded="true"
+290-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:13:145-174
+291            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+291-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:13:175-224
+292        <service
+292-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:16:5-18:15
+293            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+293-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:16:14-95
+294            android:enabled="false"
+294-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:16:96-119
+295            android:exported="true" >
+295-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:16:120-143
+296            <meta-data
+296-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:17:7-108
+297                android:name="com.google.android.play.core.assetpacks.versionCode"
+297-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:17:18-84
+298                android:value="11000" />
+298-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:17:85-106
+299        </service>
+300        <service
+300-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:19:5-147
+301            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+301-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:19:14-96
+302            android:enabled="false"
+302-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:19:97-120
+303            android:exported="false" />
+303-->[com.google.android.play:core:1.10.0] /Users/gordanaristova/.gradle/caches/transforms-2/files-2.1/e29c84969818f4635c7334b4ca9d1db0/jetified-core-1.10.0/AndroidManifest.xml:19:121-145
+304    </application>
+305
+306</manifest>

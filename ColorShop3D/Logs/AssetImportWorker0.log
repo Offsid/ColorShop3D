@@ -1,0 +1,528 @@
+Unity Editor version:    2021.3.18f1 (3129e69bc0c7)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.3.1 (a) (Build 22E772610a)
+Darwin version:          22.4.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56157
+Successfully changed project path to: /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D
+/Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [140704317637440] Host "[IP] 192.168.30.237 [Port] 0 [Flags] 2 [Guid] 1428306535 [EditorId] 1428306535 [Version] 1048832 [Id] OSXEditor(0,GordanaR-PC.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [140704317637440] Host "[IP] 192.168.30.237 [Port] 0 [Flags] 2 [Guid] 1428306535 [EditorId] 1428306535 [Version] 1048832 [Id] OSXEditor(0,GordanaR-PC.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 253.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 5300M (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 5300M (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 5300M (high power)
+Initializing Metal device caps: AMD Radeon Pro 5300M
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.18f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.008215 seconds.
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 278 ms
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 176.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.203 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2204ms)
+		BeginReloadAssembly (263ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1644ms)
+			LoadAssemblies (269ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (300ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (1162ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (696ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (177ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.020292 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.541 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2542ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (2017ms)
+			LoadAssemblies (244ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (737ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (110ms)
+			SetupLoadedEditorAssemblies (817ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (156ms)
+				ProcessInitializeOnLoadAttributes (566ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.15 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3270 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 78 unused Assets / (379.5 KB). Loaded Objects now: 3698.
+Memory consumption went from 117.0 MB to 116.7 MB.
+Total: 5.419649 ms (FindLiveObjects: 0.420939 ms CreateObjectMapping: 0.258359 ms MarkObjects: 4.223031 ms  DeleteObjects: 0.516319 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 234314.429714 seconds.
+  path: Assets/Tabtale/TTPlugins/version.txt
+  artifactKey: Guid(72b4cd21bd4c4402fa4a181aabe15a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabtale/TTPlugins/version.txt using Guid(72b4cd21bd4c4402fa4a181aabe15a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1c389d1ffb7f13eb7701e66e856c48') in 0.288470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.023847 seconds.
+  path: Assets/Models/Heads/AntMan(vintage).fbx
+  artifactKey: Guid(a3c11846f4bd74d439f0b868464fe56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Heads/AntMan(vintage).fbx using Guid(a3c11846f4bd74d439f0b868464fe56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc92517ffcdeeaba6528774eccde497') in 0.584897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Models/Heads/SquidGames.fbx
+  artifactKey: Guid(acf350efe0e96414bbf705cf3c022b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Heads/SquidGames.fbx using Guid(acf350efe0e96414bbf705cf3c022b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c9c679e261ab145b8467883598eaa0') in 0.101234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/Heads/PaceMaker.fbx
+  artifactKey: Guid(33673118e892c0842bb5780a93c0e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Heads/PaceMaker.fbx using Guid(33673118e892c0842bb5780a93c0e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52a41d8fc3c8f59a1f4c0a3bdeed0e2b') in 0.083202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Models/Heads/RoboCop.fbx
+  artifactKey: Guid(9b377b09a8327c34dafc43f1da227554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Heads/RoboCop.fbx using Guid(9b377b09a8327c34dafc43f1da227554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e56cdd50de7da50237d88c58dc63350') in 0.065159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Models/Heads/JudgeDredd.fbx
+  artifactKey: Guid(9a4e59782d2bee943839d83d37c8b089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Heads/JudgeDredd.fbx using Guid(9a4e59782d2bee943839d83d37c8b089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddee78e2568d75dc82e4738ebd09c6da') in 0.086037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Models/Heads/Magneto.fbx
+  artifactKey: Guid(a032990875fd0094584049057f60ff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Heads/Magneto.fbx using Guid(a032990875fd0094584049057f60ff74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf0dacadd1c730222d1b2ac7b596a37') in 0.083372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.989709 seconds.
+  path: Assets/Scenes/Facebook.unity
+  artifactKey: Guid(2d7bc7907ffa60f439b8d9ac35649455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Facebook.unity using Guid(2d7bc7907ffa60f439b8d9ac35649455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3933bf997a5782870640541e9a5d539e') in 0.003031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.865308 seconds.
+  path: Assets/Adaptive Performance/AdaptivePerformanceGeneralSettings.asset
+  artifactKey: Guid(c9226507bf37c8b43b9aa7fc3f887e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Adaptive Performance/AdaptivePerformanceGeneralSettings.asset using Guid(c9226507bf37c8b43b9aa7fc3f887e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e03c6ad92c0b1dbda7441f4d5c85dd') in 0.106911 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/External Packages/ToonFX/Prefabs/Splat/SplatCheap.prefab
+  artifactKey: Guid(51d5082fd9258f240a5922abdb294abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/ToonFX/Prefabs/Splat/SplatCheap.prefab using Guid(51d5082fd9258f240a5922abdb294abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '650fd79ccfff3aa74e5f47751db2e1c2') in 0.221399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/External Packages/Loading screen package/Sprites/LS7/paper.png
+  artifactKey: Guid(8ec170716388e0341a3c3feb5a1ce500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/Loading screen package/Sprites/LS7/paper.png using Guid(8ec170716388e0341a3c3feb5a1ce500) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '557bfe7694aba3c425dd9a24e0355ae7') in 1.934447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Models/Heads/CaptainAmerica1(WithoutMask).fbx
+  artifactKey: Guid(432feea0f908d1948b8601e0b0fdf098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Heads/CaptainAmerica1(WithoutMask).fbx using Guid(432feea0f908d1948b8601e0b0fdf098) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da4460f7c724ebe2ca5f8a4e8f5f6f11') in 0.065966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/External Packages/ToonFX/Textures(Mobile)/bubble_soap(Mobile).png
+  artifactKey: Guid(a57caebe5b521b34eb9709abd141bc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/ToonFX/Textures(Mobile)/bubble_soap(Mobile).png using Guid(a57caebe5b521b34eb9709abd141bc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '74f592c38b3737e42bfc9d09cf89399a') in 0.033785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/External Packages/JMO Assets/Cartoon FX/Textures/CFX2_T_Smiley Happy.png
+  artifactKey: Guid(04968eedb3f06fb478bf733d8fb53727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/JMO Assets/Cartoon FX/Textures/CFX2_T_Smiley Happy.png using Guid(04968eedb3f06fb478bf733d8fb53727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d0274a00b34d7f0dd359a0023eaddf') in 0.028179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/External Packages/ToonFX/Prefabs/Splat/SplatCheapDrops.prefab
+  artifactKey: Guid(a58a440375b9bcb449aab619c6260f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/ToonFX/Prefabs/Splat/SplatCheapDrops.prefab using Guid(a58a440375b9bcb449aab619c6260f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'f350ed6a2d04cd099e988bd2e4af62af') in 0.015832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/External Packages/ToonFX/Materials(Mobile)/BubbleSoap(Mobile).mat
+  artifactKey: Guid(022a61a85090beb45ad709159365b51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/ToonFX/Materials(Mobile)/BubbleSoap(Mobile).mat using Guid(022a61a85090beb45ad709159365b51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '9aec036b2efcefe29959b6cad2fde50d') in 0.182942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/External Packages/ToonFX/Prefabs(Mobile)/Splat/SplatCheapDrops(Mobile).prefab
+  artifactKey: Guid(0d4d5a8545dcd7d4692ddd72b3ab9923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/ToonFX/Prefabs(Mobile)/Splat/SplatCheapDrops(Mobile).prefab using Guid(0d4d5a8545dcd7d4692ddd72b3ab9923) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a62e47efff5d6929d2658ba8be4c8546') in 0.026887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/External Packages/ToonFX/Prefabs/Blood/BloodCheap.prefab
+  artifactKey: Guid(75dbabe42ec05714f994dc2237371ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/ToonFX/Prefabs/Blood/BloodCheap.prefab using Guid(75dbabe42ec05714f994dc2237371ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'c2caecbbf4ce03b06a0e1a03452fad6a') in 0.015282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Prefabs/Heads/CaptainAmerica.prefab
+  artifactKey: Guid(6a04b3911e2e0374d999a88b28018253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heads/CaptainAmerica.prefab using Guid(6a04b3911e2e0374d999a88b28018253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '8a5d5c4755fa26e685de9499efd02f66') in 0.134073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/External Packages/ToonFX/Prefabs/Blood/BloodCheapDrops.prefab
+  artifactKey: Guid(93e3d18a90e17184ca276a8b67c1853d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/ToonFX/Prefabs/Blood/BloodCheapDrops.prefab using Guid(93e3d18a90e17184ca276a8b67c1853d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '9e05dacb1f89a9d3e8db476ad43eb609') in 0.025274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/External Packages/ToonFX/Materials/BubbleSoap.mat
+  artifactKey: Guid(117512dd2caf2554abae6a3392516a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/ToonFX/Materials/BubbleSoap.mat using Guid(117512dd2caf2554abae6a3392516a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a196296d77b6f8287314329339bd2208') in 0.044168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Sprites/Head Art/Captain_America_1.png
+  artifactKey: Guid(a72aa0dbf6a8d084bb267655fca1e0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Head Art/Captain_America_1.png using Guid(a72aa0dbf6a8d084bb267655fca1e0de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '709b82e3c239d4cc0c73e7b30a90dbe3') in 0.095304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/External Packages/ToonFX/Prefabs(Mobile)/Blood/BloodCheapDrops(Mobile).prefab
+  artifactKey: Guid(5c329999505deab40af0325d3b93a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/ToonFX/Prefabs(Mobile)/Blood/BloodCheapDrops(Mobile).prefab using Guid(5c329999505deab40af0325d3b93a23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '6f2d1da88b1b8fbd3778208efaff04b1') in 0.044249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/External Packages/ToonFX/Prefabs(Mobile)/Splat/SplatCheap(Mobile).prefab
+  artifactKey: Guid(121e33126ab3b8641843adf8cb54d62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/ToonFX/Prefabs(Mobile)/Splat/SplatCheap(Mobile).prefab using Guid(121e33126ab3b8641843adf8cb54d62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'de8f469b4266d25e218b002f21c69e9c') in 0.012778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/External Packages/ToonFX/Textures/bubble_soap.png
+  artifactKey: Guid(39deb3872474b0b44bf76f24e49d69d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/ToonFX/Textures/bubble_soap.png using Guid(39deb3872474b0b44bf76f24e49d69d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'be5ca161bdd18f8bf1f7a707800f2689') in 0.027414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Models/Tape.fbx
+  artifactKey: Guid(200fd4baf29081f4f833e693ae88ce10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tape.fbx using Guid(200fd4baf29081f4f833e693ae88ce10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b3191391d2ac2a89a4e3ab00ba0f71') in 0.057781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/External Packages/JMO Assets/Cartoon FX/Textures/CFX2_T_Smiley Happy Outline.png
+  artifactKey: Guid(8b5cfdfaadd8a244c854bac174bd9120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/External Packages/JMO Assets/Cartoon FX/Textures/CFX2_T_Smiley Happy Outline.png using Guid(8b5cfdfaadd8a244c854bac174bd9120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eeda9ba55e69599efde9e4f65c5f3b6') in 0.032081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Sprites/Head Art/Captain_America.png
+  artifactKey: Guid(235b38ed2950f6d48808d3a116bb0202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Head Art/Captain_America.png using Guid(235b38ed2950f6d48808d3a116bb0202) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '9fd05e2f864d9e48388a8d572a84ff44') in 0.063211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.075697 seconds.
+  path: Assets/Materials/Textures/10269_Box_of_Crayons_diffuse_v1.jpg
+  artifactKey: Guid(339cac17c81b81d46b7244720830f066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Textures/10269_Box_of_Crayons_diffuse_v1.jpg using Guid(339cac17c81b81d46b7244720830f066) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'b89d1fa6544282ed1a9edc991b202cb7') in 2.750123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Sprites/Head Art/Ant_Man.png
+  artifactKey: Guid(9c81240e425752340bd3d4567ade538b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Head Art/Ant_Man.png using Guid(9c81240e425752340bd3d4567ade538b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: '344498234856fe3bd1b29efdb6ce650c') in 0.063858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Tabtale/TTPlugins/Analytics
+  artifactKey: Guid(6dbb3c0c805064382847a94d0b52b6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabtale/TTPlugins/Analytics using Guid(6dbb3c0c805064382847a94d0b52b6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8369b219bea5ac75ce7a6df3c1768496') in 0.001893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Models/Heads/Mandalorian.fbx
+  artifactKey: Guid(f68ac5729b05e7c4cabcd26aee3159ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Heads/Mandalorian.fbx using Guid(f68ac5729b05e7c4cabcd26aee3159ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812a02079f908272df452d9f77d2b1f8') in 0.116452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.248479 seconds.
+  path: Assets/Tabtale/TTPlugins/Analytics/Editor/AnalyticsConfigurationDownloader.cs
+  artifactKey: Guid(189697de469a54dda863294100f0b2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabtale/TTPlugins/Analytics/Editor/AnalyticsConfigurationDownloader.cs using Guid(189697de469a54dda863294100f0b2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2772337e5a80f50a486ad5f44e9a7e43') in 0.268163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.185509 seconds.
+  path: Assets/Tabtale/TTPlugins/Analytics/Editor/AnalyticsDefineSymbol.dll
+  artifactKey: Guid(293c493d30ef1482d9ed91afbedabb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabtale/TTPlugins/Analytics/Editor/AnalyticsDefineSymbol.dll using Guid(293c493d30ef1482d9ed91afbedabb14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112b0059b03100afaedc55d05829b262') in 0.931636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Tabtale/TTPlugins/Analytics/TTPAnalyticsHelper.cs
+  artifactKey: Guid(3fb2e07f3554a4ce992dcc1538e535b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabtale/TTPlugins/Analytics/TTPAnalyticsHelper.cs using Guid(3fb2e07f3554a4ce992dcc1538e535b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64213b51202d3eb551f48b3c8e3b9e40') in 0.003317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.218684 seconds.
+  path: Assets/Tabtale
+  artifactKey: Guid(429a5952587464a889ab57b294506170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tabtale using Guid(429a5952587464a889ab57b294506170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f925877a04e7d4908bfdf1261494d0ed') in 0.001965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.385432 seconds.
+  path: Assets/StreamingAssets
+  artifactKey: Guid(8e61c43c0615944f79143ed67791205e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StreamingAssets using Guid(8e61c43c0615944f79143ed67791205e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ffdcce92974800b861f409f2e077cb') in 0.008080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.739739 seconds.
+  path: Assets/ExternalDependencyManager
+  artifactKey: Guid(7b067e01f36b446d4b0e8c88d9bfb5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager using Guid(7b067e01f36b446d4b0e8c88d9bfb5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f88c6a68ba0d6626c13830afbc3bdb8') in 0.004966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 294.737432 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.002667 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010178 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/gordanaristova/CrazyLabsProjects/ColorShop3D/ColorShop3D/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1311ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (943ms)
+			LoadAssemblies (121ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3243 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (359.7 KB). Loaded Objects now: 3757.
+Memory consumption went from 153.9 MB to 153.5 MB.
+Total: 3.937481 ms (FindLiveObjects: 0.255799 ms CreateObjectMapping: 0.236708 ms MarkObjects: 3.132914 ms  DeleteObjects: 0.311022 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 64.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 70 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (359.7 KB). Loaded Objects now: 3757.
+Memory consumption went from 90.4 MB to 90.0 MB.
+Total: 3.187754 ms (FindLiveObjects: 0.238637 ms CreateObjectMapping: 0.195416 ms MarkObjects: 2.482075 ms  DeleteObjects: 0.271116 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 21.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 70 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (359.6 KB). Loaded Objects now: 3757.
+Memory consumption went from 90.1 MB to 89.7 MB.
+Total: 6.234673 ms (FindLiveObjects: 0.339723 ms CreateObjectMapping: 0.225044 ms MarkObjects: 5.348113 ms  DeleteObjects: 0.320901 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
